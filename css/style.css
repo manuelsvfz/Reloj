@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Reloj";
+    src: url("../fonts/DS-DIGIT.TTF");
+}
+
+* {
+    font-family: 'Reloj', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.container {
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reloj {
+    text-align: center;
+    width: 40rem;
+    font-size: 10rem;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+    color: black !important;
+    gap: 30px;
+}
+
+.topnav a {
+    float: left;
+    color: black !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    color: white;
+    background-color: white;
+}
+
+.containerCronometro {
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.containerCronometro button {
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 1.5rem;
+    border: transparent;
+}
+
+#cronometro {
+    text-align: center;
+    width: 100%;
+    font-size: 10rem;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 10rem;
+}
